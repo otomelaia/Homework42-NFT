@@ -1,0 +1,117 @@
+*{box-sizing: border-box;}
+
+body {
+    background-color: #2b2b2b !important;
+    margin: 0;
+    padding: 0;
+  }
+
+  @font-face {
+    font-family: FF1;
+    src: url(fonts/WorkSans/static/WorkSans-Bold.ttf);
+  }
+  @font-face {
+    font-family: FF2;
+    src: url(fonts/WorkSans/static/WorkSans-Regular.ttf);
+  }
+  @font-face {
+    font-family: FF3;
+    src: url(fonts/spacemonro/SpaceMono-Bold.ttf);
+  }
+  @font-face {
+    font-family: FF4;
+    src: url(fonts/spacemonro/SpaceMono-Regular.ttf);
+  }
+  .nav-link {
+    color: #FFF !important;; 
+    text-align: center; 
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    }
+  .bt1 {
+    display: flex;
+    height: 60px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    color: #FFF;
+    border: none;
+    }
+    .bt2 {
+    border-radius: 20px;
+    background: var(--call-to-action, #A259FF);
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; 
+    display: flex;
+    height: 60px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border: none;
+    }
+    .h-1 {
+    color: var(--white, #FFF);
+    font-family: FF1;
+    font-size: 67px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; 
+    text-transform: capitalize;
+    }
+    .h-2 {
+      color: var(--white, #FFF);
+      font-family: FF1;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%;
+      text-transform: capitalize;
+    } 
+    .p1 {
+      margin-top: 20px;
+    color: var(--white, #FFF);
+    font-family: FF2;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    text-transform: capitalize;
+    }
+    .p2 {
+    color: var(--white, #FFF);
+    font-family: FF3;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    }
+    .p3 {
+    color: var(--white, #FFF);
+    font-family: work sans;
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    text-transform: capitalize;
+    }
+    .p4 {
+    color: var(--white, #FFF);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    }
